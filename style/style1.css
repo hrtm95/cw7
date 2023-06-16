@@ -1,0 +1,17 @@
+body{
+    direction: rtl;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.btn-login{
+    background-color: #E3EBF6 !important;
+    width: 100%;
+
+}
+.btn-signin{
+    background-color: #f7f7f7 !important;
+    width: 100%;
+}

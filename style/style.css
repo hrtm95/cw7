@@ -1,6 +1,10 @@
-html {
+@font-face {
+    font-family:Vazir;
+    src: url(./../fonts/Vazir-Bold.ttf);
+}
+body {
     direction: rtl;
-    font-family: yekan;
+    font-family: Vazir !important;
     font-size: 20px;
     min-height: 100%;
 }
@@ -17,13 +21,7 @@ form{
 }
 #information {
     flex:40%;
-    padding: 150px;
-}
-@font-face {
-    font-family: Titr;
-    src: url(./../fonts/Titr.ttf);
-    font-family: yekan;
-    src: url(./../fonts/Yekan.ttf);
+    padding-top: 100px;
 }
 
 
@@ -39,26 +37,30 @@ input,textarea,select{
     padding: 5px;
     display: block;
     width: 100%;
-    font-family: yekan;
-    margin: 5px 0px 0px 0px;
+    font-size: 12PX !important;
+    font-family: Vazir;
+    margin: 10px 0px 0px 0px !important;
+    padding: 10PX !important;
+    border-color: rgba(0, 0, 0, 0.2);
 }
 select:first-child{
     color: rgb(114, 114, 114);
     }
-img{
-    width: 100px;
-    height: 100px;
+.img-thumbnail{
+    max-width: 150px;
+    max-height: 150px;
 }
 
 
 .information-img{
     width: 20px;
     height: 20px;
-
+    margin-left: 1.1rem;
 }
 .information-inside{
 display: flex;
 align-items: center;
+margin-bottom: 20px;
 }
 .d-flex{
     display: flex;
